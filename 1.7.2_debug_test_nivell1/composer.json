@@ -1,0 +1,20 @@
+{
+    "name": "miguel/ex2lvl1",
+    "description": "Ejercicio 2, nivel 1, tema 7, practicando TDD",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Miguel\\Ex2lvl1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "miguel garcia",
+            "email": "miguel.gareva@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
