@@ -1,0 +1,17 @@
+{
+    "name": "miguel/1.7.1_debug_test_nivell1",
+    "require": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Miguel\\171DebugTestNivell1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "miguel garcia",
+            "email": "miguel.gareva@gmail.com"
+        }
+    ]
+}
