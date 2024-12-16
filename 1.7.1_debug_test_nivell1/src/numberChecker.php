@@ -1,4 +1,5 @@
 <?php
+namespace Miguel\Ex1Lvl1;
 class NumberChecker  {
 	public function __construct(private int $number){}
 	public function isEven(): bool {
