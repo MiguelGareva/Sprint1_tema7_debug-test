@@ -3,7 +3,7 @@
         'name' => 'miguel/ex2lvl1',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '594b7d9027616fafd3a3e34a57dc2fad11794221',
+        'reference' => '5275bf89abf184baeba3abd54bd348cb4ba04797',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'miguel/ex2lvl1' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '594b7d9027616fafd3a3e34a57dc2fad11794221',
+            'reference' => '5275bf89abf184baeba3abd54bd348cb4ba04797',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

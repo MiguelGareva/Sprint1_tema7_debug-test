@@ -1,6 +1,6 @@
 {
     "name": "miguel/ex2lvl1",
-    "description": "Ejercicio 2, nivel 1, tema 7, practicando TDD",
+    "description": "Segundo ejercicio testing, usando TDD",
     "type": "library",
     "require": {
         "phpunit/phpunit": "^11.5"
