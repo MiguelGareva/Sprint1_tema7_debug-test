@@ -19,6 +19,16 @@ class VerificarGradoTest extends TestCase{
         $this->assertEquals("El grado del alumno es de Segunda División.", $gradoNota->VerificarGrado(49));
     }
 
-    
+    public function testVerificarGradoTercera(){
+
+        $gradoNota = new VerificarGrado();
+        $this->assertEquals("El grado del alumno es de Tercera División.", $gradoNota->VerificarGrado(40));
+    }
+
+    public function testVerificarGradoReprobado(){
+
+        $gradoNota = new VerificarGrado();
+        $this->assertEquals("El alumno está reprobado.", $gradoNota->VerificarGrado(10));
+    }
 }
 ?>
