@@ -5,9 +5,17 @@
     "require": {
         "phpunit/phpunit": "^11.5"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
     "autoload": {
         "psr-4": {
             "Miguel\\Ex2lvl1\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Miguel\\Ex2lvl1\\": "tests/"
         }
     },
     "authors": [

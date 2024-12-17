@@ -15,7 +15,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Miguel\\Tests\\": "tests/"
+            "Miguel\\Ex1lvl1\\": "tests/"
         }
     },
     "authors": [
