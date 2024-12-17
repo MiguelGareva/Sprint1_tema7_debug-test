@@ -1,5 +1,5 @@
 <?php
-namespace Miguel\Ex1Lvl1;
+namespace Miguel\Ex1lvl1;
 
 class NumberChecker  {
 

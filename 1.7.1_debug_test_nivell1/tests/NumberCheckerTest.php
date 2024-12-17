@@ -1,6 +1,6 @@
 <?php
 
-namespace Miguel\Tests;
+namespace Miguel\tests;
 
 use PHPUnit\Framework\TestCase;
 use Miguel\Ex1Lvl1\NumberChecker;
