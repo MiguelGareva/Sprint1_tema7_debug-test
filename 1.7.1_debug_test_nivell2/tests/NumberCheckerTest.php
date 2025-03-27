@@ -3,7 +3,7 @@
 namespace Miguel\tests;
 
 use PHPUnit\Framework\TestCase;
-use Miguel\Ex1Lvl1\NumberChecker;
+use Miguel\Ex1lvl1\NumberChecker;
 use PHPUnit\Framework\Attributes\DataProvider;
 
 class NumberCheckerTest extends TestCase{
@@ -40,22 +40,25 @@ class NumberCheckerTest extends TestCase{
     public function testIsEven($number){
         
         $numberChecker = new NumberChecker($number);
-        $this->assertTrue(($numberChecker->isEven()));
+        $this->assertTrue($numberChecker->isEven());
     }
     #[DataProvider('oddNumberProvider')]
     public function testIsOdd($number){
+
         $numberChecker = new Numberchecker($number);
-        $this->assertFalse(($numberChecker->isEven()));
+        $this->assertFalse($numberChecker->isEven());
     }
+    #[DataProvider('positiveNumberProvider')]
+    public function testIsPositive($number){
 
-    public function testIsPositive(){
-        $numberChecker = new NumberChecker(-2);
+        $numberChecker = new NumberChecker($number);
+        $this->assertTrue($numberChecker->isPositive());
+    }
+    #[DataProvider('negativeNumberProvider')]
+    public function testIsNegative($number){
 
-        $this->assertEquals(false, $numberChecker->isPositive());
-
-        $numberChecker2 = new NumberChecker(5);
-
-        $this->assertEquals(true, $numberChecker2->isPositive());
+        $numberChecker = new NumberChecker($number);
+        $this->assertFalse($numberChecker->isPositive());
     }
 }
 ?>

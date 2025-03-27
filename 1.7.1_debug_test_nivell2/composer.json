@@ -2,11 +2,8 @@
     "name": "miguel/ex1lvl1",
     "description": "Ejercicio 1 nivel 2, tema 7, Sprint1, test unitarios con PHPUnit",
     "type": "library",
-    "require": {
-        "phpunit/phpunit": "^11.5"
-    },
     "require-dev": {
-        "phpunit/phpunit": "^11.5"
+        "phpunit/phpunit": "^10.0"
     },
     "autoload": {
         "psr-4": {
