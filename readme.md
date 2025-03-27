@@ -23,6 +23,7 @@
     <h4>Nivel 1:</h4>
     · <a href="1.7.1_debug_test_nivell1">Ejercicio 1</a>: *"Donada la classe NumberChecker programa els tests unitaris que facin falta per certificar que el codi font de la classe fa el que ha de fer."*<br>
     · <a href="1.7.2_debug_test_nivell1">Ejercicio 2</a>: *"Practiquem una mica de TDD. Recorda l’exercici 5 del nivell de PHP Bàsics i pensa tests que podries realitzar per provar el seu correcte funcionament. Programa’ls i després ves realitzant el programa a testejar pas a pas segons valides els tests prèviament creats."*<br>
+    · <a href="1.7.2_debug_test_nivell2">Ejercicio 2</a>: *"Programa un DataProvider per a la classe Test de l’exercici 1 del nivell anterior i fes-lo servir."*<br>
    
     
     
