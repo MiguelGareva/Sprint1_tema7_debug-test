@@ -4,6 +4,7 @@ namespace Miguel\tests;
 
 use PHPUnit\Framework\TestCase;
 use Miguel\Ex1Lvl1\NumberChecker;
+use PHPUnit\Framework\Attributes\DataProvider;
 
 class NumberCheckerTest extends TestCase{
 
@@ -35,16 +36,16 @@ class NumberCheckerTest extends TestCase{
             'numero impar negativo' => [-9]
         ];
     }
-    public function testIsEven(){
-        $numberChecker1 = new NumberChecker(3);
-
-        $this->assertEquals(false, $numberChecker1->isEven());
-
-        $numberChecker2 = new NumberChecker(2);
-
-        $this->assertEquals(true, $numberChecker2->isEven());
-
-
+    #[DataProvider('evenNumberProvider')]
+    public function testIsEven($number){
+        
+        $numberChecker = new NumberChecker($number);
+        $this->assertTrue(($numberChecker->isEven()));
+    }
+    #[DataProvider('oddNumberProvider')]
+    public function testIsOdd($number){
+        $numberChecker = new Numberchecker($number);
+        $this->assertFalse(($numberChecker->isEven()));
     }
 
     public function testIsPositive(){
